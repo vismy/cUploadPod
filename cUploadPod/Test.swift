@@ -8,9 +8,7 @@
 
 import Foundation
 
-
-
-class Test {
+class Test:NSObject {
     func testFunc() -> Float {
         return 1
     }
