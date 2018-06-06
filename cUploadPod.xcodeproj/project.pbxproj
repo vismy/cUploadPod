@@ -79,7 +79,13 @@
 		6F300CB320C7DA8600DE1571 = {
 			isa = PBXGroup;
 			children = (
+				6F300CBF20C7DA8600DE1571 /* AppDelegate.swift */,
+				6F300CC120C7DA8600DE1571 /* ViewController.swift */,
+				6F300CCB20C7DA8600DE1571 /* Info.plist */,
 				6F300CBE20C7DA8600DE1571 /* cUploadPod */,
+				6F300CC620C7DA8600DE1571 /* Assets.xcassets */,
+				6F300CC820C7DA8600DE1571 /* LaunchScreen.storyboard */,
+				6F300CC320C7DA8600DE1571 /* Main.storyboard */,
 				6F300CD320C7DA8600DE1571 /* cUploadPodTests */,
 				6F300CDE20C7DA8600DE1571 /* cUploadPodUITests */,
 				6F300CBD20C7DA8600DE1571 /* Products */,
@@ -99,12 +105,6 @@
 		6F300CBE20C7DA8600DE1571 /* cUploadPod */ = {
 			isa = PBXGroup;
 			children = (
-				6F300CBF20C7DA8600DE1571 /* AppDelegate.swift */,
-				6F300CC120C7DA8600DE1571 /* ViewController.swift */,
-				6F300CC320C7DA8600DE1571 /* Main.storyboard */,
-				6F300CC620C7DA8600DE1571 /* Assets.xcassets */,
-				6F300CC820C7DA8600DE1571 /* LaunchScreen.storyboard */,
-				6F300CCB20C7DA8600DE1571 /* Info.plist */,
 				6F300CED20C7E59E00DE1571 /* Test.swift */,
 			);
 			path = cUploadPod;
