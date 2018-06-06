@@ -8,8 +8,8 @@
 
 import Foundation
 
-class Test:NSObject {
-    func testFunc() -> Float {
+public class Test:NSObject {
+    open func testFunc() -> Float {
         return 1
     }
 }
