@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "cUploadPod"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "cUploadPod."
    s.swift_version = "3.2"
 
