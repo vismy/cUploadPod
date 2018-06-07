@@ -9,9 +9,15 @@
 import Foundation
 import UIKit
 
-class TestViewController: UIViewController {
+public class TestViewController: UIViewController {
      weak var label: UILabel!
     
+    public override func viewDidLoad() {
+        let button = UIButton()
+        button.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+        button.addTarget(self, action: #selector(self.click(_:)), for: UIControlEvents.touchUpInside)
+        self.view.addSubview(button)
+    }
     
     
     //    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
@@ -21,11 +27,9 @@ class TestViewController: UIViewController {
 //    init() {
 //        super.init(nibName: "TestViewController", bundle: nil)
 //    }
-    @IBAction func click(_ sender: Any) {
+    @objc func click(_ sender: Any) {
         print("test xib")
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+
 }
