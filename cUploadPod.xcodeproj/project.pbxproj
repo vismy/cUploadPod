@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F151CC620CFC58500D110D2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F151CC520CFC58400D110D2 /* Info.plist */; };
+		6F151CCA20CFC71A00D110D2 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 6F151CC920CFC71A00D110D2 /* Classes */; };
 		6F300CC020C7DA8600DE1571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F300CBF20C7DA8600DE1571 /* AppDelegate.swift */; };
 		6F300CC220C7DA8600DE1571 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F300CC120C7DA8600DE1571 /* ViewController.swift */; };
 		6F300CC520C7DA8600DE1571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F300CC320C7DA8600DE1571 /* Main.storyboard */; };
@@ -14,8 +16,6 @@
 		6F300CCA20C7DA8600DE1571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F300CC820C7DA8600DE1571 /* LaunchScreen.storyboard */; };
 		6F300CD520C7DA8600DE1571 /* cUploadPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F300CD420C7DA8600DE1571 /* cUploadPodTests.swift */; };
 		6F300CE020C7DA8600DE1571 /* cUploadPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F300CDF20C7DA8600DE1571 /* cUploadPodUITests.swift */; };
-		6F300CEE20C7E59E00DE1571 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F300CED20C7E59E00DE1571 /* Test.swift */; };
-		6F5CF7BF20C8DAD900EFB071 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5CF7BE20C8DAD900EFB071 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +36,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F151CC520CFC58400D110D2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F151CC920CFC71A00D110D2 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		6F300CBC20C7DA8600DE1571 /* cUploadPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cUploadPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F300CBF20C7DA8600DE1571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F300CC120C7DA8600DE1571 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6F300CC420C7DA8600DE1571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F300CC620C7DA8600DE1571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F300CC920C7DA8600DE1571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6F300CCB20C7DA8600DE1571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F300CD020C7DA8600DE1571 /* cUploadPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cUploadPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F300CD420C7DA8600DE1571 /* cUploadPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cUploadPodTests.swift; sourceTree = "<group>"; };
 		6F300CD620C7DA8600DE1571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F300CDB20C7DA8600DE1571 /* cUploadPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cUploadPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F300CDF20C7DA8600DE1571 /* cUploadPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cUploadPodUITests.swift; sourceTree = "<group>"; };
 		6F300CE120C7DA8600DE1571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F300CED20C7E59E00DE1571 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		6F5CF7BE20C8DAD900EFB071 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,13 +77,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F151CC420CFC55500D110D2 /* cUploadPod */ = {
+			isa = PBXGroup;
+			children = (
+				6F83896420CFC7EA0068FDEE /* Test */,
+				6F151CC820CFC6E500D110D2 /* Application */,
+			);
+			path = cUploadPod;
+			sourceTree = "<group>";
+		};
+		6F151CC820CFC6E500D110D2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6F151CC520CFC58400D110D2 /* Info.plist */,
+				6F300CBF20C7DA8600DE1571 /* AppDelegate.swift */,
+				6F300CC120C7DA8600DE1571 /* ViewController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		6F300CB320C7DA8600DE1571 = {
 			isa = PBXGroup;
 			children = (
-				6F300CBF20C7DA8600DE1571 /* AppDelegate.swift */,
-				6F300CC120C7DA8600DE1571 /* ViewController.swift */,
-				6F300CCB20C7DA8600DE1571 /* Info.plist */,
-				6F300CBE20C7DA8600DE1571 /* cUploadPod */,
+				6F151CC420CFC55500D110D2 /* cUploadPod */,
 				6F300CC620C7DA8600DE1571 /* Assets.xcassets */,
 				6F300CC820C7DA8600DE1571 /* LaunchScreen.storyboard */,
 				6F300CC320C7DA8600DE1571 /* Main.storyboard */,
@@ -104,15 +119,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6F300CBE20C7DA8600DE1571 /* cUploadPod */ = {
-			isa = PBXGroup;
-			children = (
-				6F300CED20C7E59E00DE1571 /* Test.swift */,
-				6F5CF7BE20C8DAD900EFB071 /* TestViewController.swift */,
-			);
-			path = cUploadPod;
-			sourceTree = "<group>";
-		};
 		6F300CD320C7DA8600DE1571 /* cUploadPodTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +135,14 @@
 				6F300CE120C7DA8600DE1571 /* Info.plist */,
 			);
 			path = cUploadPodUITests;
+			sourceTree = "<group>";
+		};
+		6F83896420CFC7EA0068FDEE /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				6F151CC920CFC71A00D110D2 /* Classes */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +254,8 @@
 			files = (
 				6F300CCA20C7DA8600DE1571 /* LaunchScreen.storyboard in Resources */,
 				6F300CC720C7DA8600DE1571 /* Assets.xcassets in Resources */,
+				6F151CCA20CFC71A00D110D2 /* Classes in Resources */,
+				6F151CC620CFC58500D110D2 /* Info.plist in Resources */,
 				6F300CC520C7DA8600DE1571 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,8 +283,6 @@
 			files = (
 				6F300CC220C7DA8600DE1571 /* ViewController.swift in Sources */,
 				6F300CC020C7DA8600DE1571 /* AppDelegate.swift in Sources */,
-				6F5CF7BF20C8DAD900EFB071 /* TestViewController.swift in Sources */,
-				6F300CEE20C7E59E00DE1571 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +450,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58997MF796;
-				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/cUploadPod/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cv.cUploadPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,7 +465,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58997MF796;
-				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/cUploadPod/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cv.cUploadPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";

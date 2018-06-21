@@ -19,16 +19,9 @@ public class TestViewController: UIViewController {
         self.view.addSubview(button)
     }
     
-    
-    //    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-//        super.init(nibName: "TestViewController", bundle: nibBundleOrNil)
-//    }
-    
-//    init() {
-//        super.init(nibName: "TestViewController", bundle: nil)
-//    }
+
     @objc func click(_ sender: Any) {
-        print("test xib")
+        print("test")
     }
     
 

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "cUploadPod"
-  s.version      = "0.0.9"
+  s.version      = "0.1.0"
   s.summary      = "cUploadPod."
    s.swift_version = "3.2"
 
@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "cUploadPod/*"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "cUploadPod/Test/**/*"
+  #s.exclude_files = "cUploadPod/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
